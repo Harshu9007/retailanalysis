@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore[reportMissingImports]
 from lib.Utils import get_spark_session
 from lib.DataReader import read_customers, read_orders
 from lib.DataManipulation import filter_closed_orders,filter_orders_generic,filter_complete_orders
